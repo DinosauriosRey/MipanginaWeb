@@ -71,18 +71,24 @@ h1{
     padding: 0 20px;
 }
 
-@media (max-width:768px){
+@media (max-width:600px){
     body {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .gifbox {
+        width: 100%;
         padding: 10px;
+        box-sizing: border-box;
     }
-    h1 {
-        font-size: 1.5em;
-        text-align: center;
-    }
-    h2 {
-        font-size: 1.2em;
-    }
-    p, li {
-        font-size: 1em;
+    .contenedorprincipal {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
     }
 }
